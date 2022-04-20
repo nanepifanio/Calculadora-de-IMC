@@ -2,12 +2,13 @@
   "name": "imc-react",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://nanepifanio.github.io/Calculadora-de-IMC/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run dev",
+    "deploy": "gh-pages -d dev"
   },
   "dependencies": {
     "react": "^18.0.0",
